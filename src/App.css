@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #aaaeaf;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 3rem;
+}
+
+.Hero {
+  background-color: #5fcde6;
+  padding-top: 250px;
+}
+.About {
+  background-color: #f8f2f2;
+  padding-top: 5rem;
+}
+.Contact {
+  background-color: #5fcde6;
+  padding-top: 3rem;
+}
+.Footer {
+  background-color: #aaaeaf;
+}
+
+.App {
+  text-align: center;
+}
