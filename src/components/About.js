@@ -10,6 +10,7 @@ const About = () => {
               <h1>About Me</h1>
             </div>
           </div>
+
           <div className="row justify-content-center fs-5">
             <div className="col-md-4 text-center">
               <Card style={{ height: "13rem" }}>

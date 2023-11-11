@@ -1,13 +1,8 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 const Hero = () => {
   return (
     <section id="Hero">
       <div className="Hero text center">
         <div className="Container">
-          <img src="assets/img/eni.jpg/" alt=""></img>
           <div className="row justify-content-center ">
             <div className="col-md-6 text-black text-center ">
               <h1>Siti Nuraeni</h1>
