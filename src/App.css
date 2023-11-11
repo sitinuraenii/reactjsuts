@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #aaaeaf;
+  background-color: #edf0e4;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }
 
 .Hero {
-  background-color: #5fcde6;
+  background-color: #e9b384;
   padding-top: 250px;
 }
 .About {
@@ -15,11 +15,11 @@
   padding-top: 5rem;
 }
 .Contact {
-  background-color: #5fcde6;
+  background-color: #dac0a3;
   padding-top: 3rem;
 }
 .Footer {
-  background-color: #aaaeaf;
+  background-color: #e9b384;
 }
 
 .App {
