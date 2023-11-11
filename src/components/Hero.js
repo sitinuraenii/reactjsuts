@@ -1,3 +1,5 @@
+import logo from "../assets/img/eni.jpg";
+
 const Hero = () => {
   return (
     <section id="Hero">
@@ -5,6 +7,7 @@ const Hero = () => {
         <div className="Container">
           <div className="row justify-content-center ">
             <div className="col-md-6 text-black text-center ">
+              <img src={logo} className="rounded-circle pb-4" width={200}></img>
               <h1>Siti Nuraeni</h1>
               <p>Mahasiswa</p>
             </div>
