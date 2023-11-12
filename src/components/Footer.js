@@ -6,8 +6,12 @@ const Footer = () => {
       <div className="Container">
         <div className="Row text-center">
           <div className="Col">
-            <p>
-              @Created By <a href="https://instagram.com/enn_0204">Siti Nuraeni</a> 2023
+            <p className="text-muted">
+              @Created By{" "}
+              <a href="https://instagram.com/enn_0204 " className="text-decoration-none text-white">
+                Siti Nuraeni
+              </a>{" "}
+              2023
             </p>
           </div>
         </div>
