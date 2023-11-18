@@ -13,12 +13,16 @@
 
 .About {
   background-color: #f8f2f2;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .Contact {
   background-color: #dac0a3;
-  padding-top: 3rem;
+  padding-top: 4rem;
+}
+.Work {
+  background-color: #f8f2f2;
+  padding-top: 4rem;
 }
 
 .Footer {

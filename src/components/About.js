@@ -1,6 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import { CardBody } from "react-bootstrap";
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
       <section id="About">
         <div className="About text-center">
           <div className="Container">
-            <div className="row text-center mb-5">
+            <div className="row text-center mb-4">
               <div className="col ">
                 <h1>About Me</h1>
               </div>
@@ -17,11 +18,11 @@ const About = () => {
 
             <div className="row justify-content-center fs-5">
               <div className="col-md-4 text-center">
-                <Card style={{ height: "13rem" }}>
-                  <Card.Body>
+                <Card>
+                  <CardBody>
                     <Card.Title>Siti Nuraeni</Card.Title>
                     <Card.Text>Seorang mahasiswa di Universitas Pendidikan Indonesia dengan jurusan Pendidikan Ilmu Komputer Angkatan 2022. Sekarang saya sedang menjalani semester 3. </Card.Text>
-                  </Card.Body>
+                  </CardBody>
                 </Card>
               </div>
             </div>

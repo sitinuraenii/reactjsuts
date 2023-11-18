@@ -21,6 +21,9 @@ const Navigation = () => {
             <Nav.Link as={Link} to="/contact" className="nav-link">
               Contact
             </Nav.Link>
+            <Nav.Link as={Link} to="/work" className="nav-link">
+              Work
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
