@@ -16,31 +16,33 @@ const Work = () => {
                 <h1>Work Me</h1>
               </div>
             </div>
-            <div class="row fs-5">
-              <div class="col-md-4 mb-3">
-                <div class="card text-center">
-                  <img class="card-img-top" src={divroh} alt="divroh" />
-                  <div class="card-body">
-                    <div class="text center fw-bold">Divroh</div>
-                    <p class="card-text">Pada saat memasuki semester 2 dari BEM KEMAKOM mengadakan oprec kepengurusan. Alasan mengikuti tersebut untuk mencari pengalaman dan wawasan baru dalam organisasi.</p>
+            <div className="row fs-5">
+              <div className="col-md-4 mb-3">
+                <div className="card text-center image">
+                  <img className="card-img-top" src={divroh} alt="divroh" />
+                  <div className="card-body">
+                    <div className="text center fw-bold">Divroh</div>
+                    <p className="card-text">Pada saat memasuki semester 2 dari BEM KEMAKOM mengadakan oprec kepengurusan. Alasan mengikuti tersebut untuk mencari pengalaman dan wawasan baru dalam organisasi.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 mb-3">
-                <div class="card text-center">
-                  <img class="card-img-top" src={mentoring} alt="mentoring" />
-                  <div class="card-body">
-                    <div class="text center fw-bold">Mentoring</div>
-                    <p class="card-text">Pada bulan September saya mengikuti kegiatan mentoring mahasiswa baru dengan materi peralihan dari siswa ke mahasiswa dan etika dalam perkuliahan yang diadakan dari program kerja BEM</p>
+              <div className="col-md-4 mb-3">
+                <div className="card text-center image">
+                  <img className="card-img-top" src={mentoring} alt="mentoring" />
+                  <div classNames="card-body">
+                    <div className="text center fw-bold">Mentoring</div>
+                    <p classNames="card-text">Pada bulan September saya mengikuti kegiatan mentoring mahasiswa baru dengan materi peralihan dari siswa ke mahasiswa dan etika dalam perkuliahan yang diadakan dari program kerja BEM</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 mb-3">
-                <div class="card text-center">
-                  <img class="card-img-top" src={agustusan} alt="agustusan" />
-                  <div class="card-body">
-                    <div class="text center fw-bold">17 Agustus</div>
-                    <p class="card-text">Pada saat memperingati 17 Agustusan saya mengikuti kepanitiaan untuk memeriahkan acara 17 Agustusan di kampung halaman. Pada acara tersebut banyak lomba yang diikuti oleh anak-anak sampai dewasa.</p>
+              <div className="col-md-4 mb-3">
+                <div className="card text-center image">
+                  <img className="card-img-top" src={agustusan} alt="agustusan" />
+                  <div className="card-body">
+                    <div className="text center fw-bold">17 Agustus</div>
+                    <p className="card-text">
+                      Pada saat memperingati 17 Agustusan saya mengikuti kepanitiaan untuk memeriahkan acara 17 Agustusan di kampung halaman. Pada acara tersebut banyak lomba yang diikuti oleh anak-anak sampai dewasa.
+                    </p>
                   </div>
                 </div>
               </div>

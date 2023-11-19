@@ -13,7 +13,7 @@
 
 .About {
   background-color: #f8f2f2;
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
 
 .Contact {
@@ -23,6 +23,11 @@
 .Work {
   background-color: #f8f2f2;
   padding-top: 4rem;
+  transition: 0.5s;
+}
+
+.image:hover {
+  transform: scale(1.1);
 }
 
 .Footer {

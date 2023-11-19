@@ -10,14 +10,14 @@ const About = () => {
       <section id="About">
         <div className="About text-center">
           <div className="Container">
-            <div className="row text-center mb-4">
+            <div className="row text-center mb-5">
               <div className="col ">
                 <h1>About Me</h1>
               </div>
             </div>
 
             <div className="row justify-content-center fs-5">
-              <div className="col-md-4 text-center">
+              <div className="col-md-4 text-center mb-1">
                 <Card>
                   <CardBody>
                     <Card.Title>Siti Nuraeni</Card.Title>
